@@ -1,39 +1,6 @@
-# Установка
-> [!IMPORTANT]
-> Для **TG WS Proxy Python** необходимо ≈ **25** МБ свободного места в корневом разделе
->
-> Для **TG WS Proxy Go** и **TG WS Proxy Rust** необходимо ≈ **5** МБ свободного места в корневом разделе
->
-> Пакеты **Python** для архитектур **mips_24kc / mipsel_24kc** могут быть недоступны в некоторых версиях **OpenWrt** !
+> [!IMPORTANT] 
+> # tg-ws-proxy-Manager переехал в [Zapret Manager](https://github.com/StressOzz/Zapret-Manager)
 
-- в SSH выполните
-```
-sh <(wget -O - https://raw.githubusercontent.com/StressOzz/tg-ws-proxy-Manager/main/tg-ws-proxy-Manager.sh)
-```
----
-
-# Настройка Telegram
-
-В **Telegram Desktop**:
-- Настройки **→** Продвинутые настройки **→** Тип соеденения **→** Добавить прокси
-- Выберите **SOCKS5** / **MTPROTO**
-- В поле **Хост** укажите **IP**, в **Порт** укажите **порт**
-- Для **MTPROTO** в **Ключ** укажите **ключ**
-- Нажмите Сохранить
-
-В **приложении Telegram**:
-- Настройки **→** Данные и память **→** Настройки прокси **→** Добавить прокси
-- Выберите **SOCKS5** / **MTPROTO**
-- В поле **Сервер** укажите **IP**, в **Порт** укажите **порт**
-- Для **MTPROTO** в **Ключ** укажите **ключ**
-- Нажмите на галочку в верхнем правом углу
-
---- 
-
-> [!IMPORTANT]
-> При удалении **TG WS Proxy Python** будут удалены пакеты **python3-light**, **python3-pip**, **python3-cryptography**, **unzip** и все зависимости, связанные с ними.
-
----
 
 <table>
   <tr>
